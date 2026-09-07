@@ -79,5 +79,5 @@ vit-mechanistic-interpretability/
    ```bash
    pip install -r requirements.txt
 6. **Run the Analysis Notebook:**
-    Launch Jupyter and execute ```bash notebooks/circuit_scan.ipynb to run the 144-head ablation scan and generate    attention heatmap overlays.
+    Launch Jupyter and execute `notebooks/circuit_scan.ipynb` to run the 144-head ablation scan and generate    attention heatmap overlays.
 
