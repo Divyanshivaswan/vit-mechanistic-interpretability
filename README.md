@@ -1,9 +1,5 @@
 # Vision Transformer Circuit Dissection (ViT- Mechanistic-interpretability)
-Causal ablation scan and attention-logit analysis of google/vit-base-patch16-224 to isolate feature-specific neural circuits (L11H0) for smoke plume detection.
-
-# Causal Circuit Dissection in Vision Transformers (ViT)
-
-This repository contains an empirical mechanistic interpretability study on `google/vit-base-patch16-224`. The primary objective is to move beyond black-box classification by locating, isolating, and validating feature-specific neural circuits responsible for detecting dense, high-contrast visual features (volumetric smoke plumes).
+This repository contains Causal ablation scan and attention-logit analysis of 'google/vit-base-patch16-224' to isolate feature-specific neural circuits (L11H0) for smoke plume detection. The primary objective is to move beyond black-box classification by locating, isolating, and validating feature-specific neural circuits responsible for detecting dense, high-contrast visual features (volumetric smoke plumes).
 
 ---
 
