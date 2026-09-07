@@ -65,3 +65,16 @@ vit-mechanistic-interpretability/
 │   └── visualizer.py         # Heatmap generator for attention weight overlays
 └── notebooks/
     └── circuit_scan.ipynb    # End-to-end execution notebook with attention plots
+
+## Execution Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Divyanshivaswan/vit-mechanistic-interpretability.git](https://github.com/Divyanshivaswan/vit-mechanistic-interpretability.git)
+2. **Navigate into the directory:**
+   cd vit-mechanistic-interpretability
+3. **Install required dependencies:**
+    pip install -r requirements.txt
+4. **Run the Analysis Notebook:**
+    Launch Jupyter and execute notebooks/circuit_scan.ipynb to run the 144-head ablation scan and generate attention heatmap     overlays.
+
