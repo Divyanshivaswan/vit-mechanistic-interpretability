@@ -31,7 +31,7 @@ Transformer Encoder (12 Layers, 144 Total Attention Heads)
        │
        ▼
 Logit & Probability Metrics  ──► Measure Confidence Drop & Target Class Sensitivity
-
+```
 ### 1. Patch Tokenization & Dimension Mapping
 * The input image $I \in \mathbb{R}^{224 \times 224 \times 3}$ is partitioned into $16 \times 16$ non-overlapping patches.
 * Grid size: $(224 / 16) \times (224 / 16) = 14 \times 14 = 196$ patch tokens.
@@ -66,7 +66,7 @@ vit-mechanistic-interpretability/
 │   └── visualizer.py         # Heatmap generator for attention weight overlays
 └── notebooks/
     └── circuit_scan.ipynb    # End-to-end execution notebook with attention plots
-
+```
 ## Execution Steps
 
 1. **Clone the repository:**
