@@ -16,19 +16,20 @@ Key experimental observations include:
 ---
 
 ## Experimental Workflow & Mathematical Logic
+```text
 Input Image (224x224x3)
-│
-▼
-Patch Extraction (16x16)  ──►  196 Patch Tokens + 1 [CLS] Token (Dim = 768)
-│
-▼
+       │
+       ▼
+Patch Extraction (16x16)  ──►  196 Patch Tokens + 1 [CLS] Token
+       │
+       ▼
 Transformer Encoder (12 Layers, 144 Total Attention Heads)
-│
-├─► Forward Hook Interception  ──► Raw Attention Weights: Softmax(QK^T / sqrt(d_k))
-│
-└─► Causal Zero-Ablation      ──► Block L11H0 Vector Output
-│
-▼
+       │
+       ├─► Forward Hook Interception  ──► Raw Attention Weights: Softmax(QK^T / sqrt(d_k))
+       │
+       └─► Causal Zero-Ablation      ──► Block L11H0 Vector Output
+       │
+       ▼
 Logit & Probability Metrics  ──► Measure Confidence Drop & Target Class Sensitivity
 
 ### 1. Patch Tokenization & Dimension Mapping
