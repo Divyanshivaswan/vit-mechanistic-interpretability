@@ -70,6 +70,9 @@ vit-mechanistic-interpretability/
 ## Execution Steps
 
 1. **Clone the repository:**
+   ## Execution Steps
+
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Divyanshivaswan/vit-mechanistic-interpretability.git](https://github.com/Divyanshivaswan/vit-mechanistic-interpretability.git)
 2. **Navigate into the directory:**
