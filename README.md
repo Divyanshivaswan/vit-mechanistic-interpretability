@@ -73,9 +73,11 @@ vit-mechanistic-interpretability/
    ```bash
    git clone [https://github.com/Divyanshivaswan/vit-mechanistic-interpretability.git](https://github.com/Divyanshivaswan/vit-mechanistic-interpretability.git)
 2. **Navigate into the directory:**
+   ```bash
    cd vit-mechanistic-interpretability
-3. **Install required dependencies:**
-    pip install -r requirements.txt
-4. **Run the Analysis Notebook:**
-    Launch Jupyter and execute notebooks/circuit_scan.ipynb to run the 144-head ablation scan and generate attention heatmap     overlays.
+4. **Install required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+6. **Run the Analysis Notebook:**
+    Launch Jupyter and execute ```bash notebooks/circuit_scan.ipynb ```to run the 144-head ablation scan and generate    attention heatmap overlays.
 
