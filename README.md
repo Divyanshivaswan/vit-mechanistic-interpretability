@@ -14,12 +14,12 @@ Since off-the-shelf ImageNet pretrained ViTs do not contain a dedicated "Wildfir
 
 ## 2. Key Methods & Findings
 
-* **Direct Logit Attribution (DLA):** Computes linear projections of individual head outputs directly onto the unembedding matrix $W_U[\text{Target}]$ to measure direct head contributions[cite: 1].
-* **144-Head Causal Mean Ablation:** Replaces head activations with mean buffers across layers to isolate causally necessary heads[cite: 1].
-* **Path Patching ($L5H8 \rightarrow L11H0$):** Swaps clean and corrupted activations to verify directional communication along specific internal pathways[cite: 1].
+* **Direct Logit Attribution (DLA):** Computes linear projections of individual head outputs directly onto the unembedding matrix $W_U[\text{Target}]$ to measure direct head contributions.
+* **144-Head Causal Mean Ablation:** Replaces head activations with mean buffers across layers to isolate causally necessary heads.
+* **Path Patching ($L5H8 \rightarrow L11H0$):** Swaps clean and corrupted activations to verify directional communication along specific internal pathways.
 * **Identified Circuit:** 
-  * **Mid-Layer Feature Extractor ($L5H8$):** Detects local spatial features like smoke plume textures and haze[cite: 1].
-  * **Late-Layer Decision Aggregator ($L11H0$):** Collects feature signals and projects them onto the final output logit[cite: 1].
+  * **Mid-Layer Feature Extractor ($L5H8$):** Detects local spatial features like smoke plume textures and haze.
+  * **Late-Layer Decision Aggregator ($L11H0$):** Collects feature signals and projects them onto the final output logit.
 
 ---
 
@@ -55,7 +55,7 @@ from datasets import load_dataset
 dataset = load_dataset("Hajorda/flameye-wildfire-detection", split="test")
 
 ## 6. How to Run
-Execute the main script to perform forward passes, DLA analysis, causal mean ablation, and path patching experiments[cite: 1]:
+Execute the main script to perform forward passes, DLA analysis, causal mean ablation, and path patching experiments:
 
 python vit_mech_interpretability.py
 
