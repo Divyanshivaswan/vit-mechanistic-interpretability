@@ -49,7 +49,7 @@ cd vit-mech-interpretability
 pip install torch torchvision transformers datasets numpy matplotlib opencv-python pillow
 
 ## 5. Data Access
-This project fetches the Hajorda/flameye-wildfire-detection dataset directly via the Hugging Face datasets library[cite: 1]. No manual download is required[cite: 1].
+This project fetches the Hajorda/flameye-wildfire-detection dataset directly via the Hugging Face datasets library. No manual download is required.
 
 from datasets import load_dataset
 dataset = load_dataset("Hajorda/flameye-wildfire-detection", split="test")
@@ -59,7 +59,7 @@ Execute the main script to perform forward passes, DLA analysis, causal mean abl
 
 python vit_mech_interpretability.py
 
-## Results & Summary
+## 7. Results & Summary
 
 ### Key Findings & Causal Circuit Discovery
 
